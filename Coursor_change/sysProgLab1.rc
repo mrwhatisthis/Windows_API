@@ -1,0 +1,187 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "winres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (United States) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""winres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_DIALOG1, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 213
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 77
+    END
+
+    IDD_DIALOG2, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 251
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 80
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Cursor
+//
+
+IDC_CURSOR1             CURSOR                  "cursor1.cur"
+
+IDC_CURSOR2             CURSOR                  "cursor2.cur"
+
+IDC_POINTER             CURSOR                  "arrow.cur"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DIALOG1 DIALOGEX 0, 0, 220, 84
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Information"
+FONT 10, "Tahoma", 400, 0, 0x0
+BEGIN
+    PUSHBUTTON      "OK",IDOK,16,58,41,12
+    PUSHBUTTON      "EXIT",IDCLOSE,76,58,40,12
+    PUSHBUTTON      "MORE INFO",IDC_BUTTON3,137,58,68,12
+    LTEXT           "My name is Demian Stetsyk. My name written on the title of the window.\nI am studen of NURE.",IDC_STATIC,24,14,170,42
+END
+
+IDD_DIALOG2 DIALOGEX 0, 0, 258, 87
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Additional task"
+FONT 10, "Tahoma", 400, 0, 0x0
+BEGIN
+    EDITTEXT        IDC_EDIT1,20,15,221,28,ES_AUTOHSCROLL
+    PUSHBUTTON      "Read",IDOK,22,58,54,15
+    PUSHBUTTON      "Close",IDCLOSE,184,57,54,15
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// AFX_DIALOG_LAYOUT
+//
+
+IDD_DIALOG1 AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_DIALOG2 AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU1 MENU
+BEGIN
+    POPUP "Cursors"
+    BEGIN
+        MENUITEM "Croshair",                    IDC_CURSOR1
+        MENUITEM "Sqare",                       IDC_CURSOR2
+        MENUITEM "Arrow",                       IDC_POINTER
+    END
+    POPUP "More"
+    BEGIN
+        MENUITEM "Information dialog",          ID_I40004
+        MENUITEM "Additional dialog",           ID_INFORMATION_ADDITIONALDIALOG
+        MENUITEM "Swich menu",                  ID_MORE_SWICHMENU
+    END
+END
+
+IDR_MENU2 MENU
+BEGIN
+    POPUP "NewMenu"
+    BEGIN
+        POPUP "NewMenuItem1"
+        BEGIN
+            MENUITEM "SubItem1",                    ID_NEWMENUITEM1_SUBITEM1
+            MENUITEM "SubItem2",                    ID_NEWMENUITEM1_SUBITEM2
+        END
+        POPUP "NewMenuItem2"
+        BEGIN
+            MENUITEM "SubItem1",                    ID_NEWMENUITEM2_SUBITEM1
+            MENUITEM "SubItem2",                    ID_NEWMENUITEM2_SUBITEM2
+        END
+        POPUP "File"
+        BEGIN
+            MENUITEM "SubItem1",                    ID_FILE_SUBMENU1
+            MENUITEM "SubItem2",                    ID_FILE_SUBMENU2
+        END
+    END
+END
+
+#endif    // English (United States) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
